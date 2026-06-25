@@ -157,11 +157,11 @@ class MainActivity : ComponentActivity() {
                                 Row {
                                     // パネルの表示・非表示を切り替えるボタン
                                     Button(onClick = { isPanelVisible = !isPanelVisible }) {
-                                        Text(if (isPanelVisible) "パネルを非表示" else "パネルを表示")
+                                        Text(if (isPanelVisible) "Hide Panel" else "Show Panel")
                                     }
                                     Spacer(modifier = Modifier.width(8.dp))
                                     Button(onClick = { session?.scene?.requestHomeSpaceMode() }) {
-                                        Text("ホームスペースへ戻る")
+                                        Text("Back to Home Space")
                                     }
                                 }
                             }
@@ -179,7 +179,7 @@ class MainActivity : ComponentActivity() {
                                 )
                                 Spacer(modifier = Modifier.height(16.dp))
                                 Button(onClick = { session?.scene?.requestFullSpaceMode() }) {
-                                    Text("フルスペースへ移行")
+                                    Text("Go to Full Space")
                                 }
                             }
                         }
