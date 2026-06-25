@@ -1,5 +1,7 @@
 # android-xr-genie-effect-sample
 
+![Genie Effect Demo](images/demo.gif)
+
 A sample Android XR application demonstrating a smooth, Dock-like Genie Effect animation and seamless space transitions using the Jetpack XR SDK (Compose for XR).
 
 ---
@@ -43,6 +45,8 @@ val pivotX = 0.375f
 ---
 
 # android-xr-genie-effect-sample (日本語)
+
+![Genie Effect Demo](images/demo.gif)
 
 Jetpack XR SDK（Compose for XR）を利用して、MacのDockのような「ジーニーエフェクト（吸い込み・飛び出し）」アニメーションと、ホームスペース/フルスペースの双方向遷移を実装したサンプルプロジェクトです。
 
