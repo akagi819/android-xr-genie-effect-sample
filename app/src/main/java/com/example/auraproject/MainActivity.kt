@@ -31,6 +31,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.TransformOrigin
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
@@ -131,7 +132,7 @@ class MainActivity : ComponentActivity() {
                                     ) {
                                         Surface(
                                             modifier = Modifier.fillMaxSize(),
-                                            color = MaterialTheme.colorScheme.surface.copy(alpha = 0.4f),
+                                            color = Color(0xFFB3E5FC).copy(alpha = 0.6f),
                                             shape = MaterialTheme.shapes.large
                                         ) {
                                             Box(
